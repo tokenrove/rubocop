@@ -1033,6 +1033,12 @@ Lint/IneffectiveAccessModifier:
                  the visibility of a class method, which does not work.
   Enabled: true
 
+Lint/IntegerTruncation:
+  Description: >-
+                 Checks for unintentional potentially-truncating
+                 integer divisions.
+  Enabled: true
+
 Lint/InvalidCharacterLiteral:
   Description: >-
                  Checks for invalid character literals with a non-escaped
