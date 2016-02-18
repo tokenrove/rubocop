@@ -564,6 +564,10 @@ Style/RaiseArgs:
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#exception-class-messages'
   Enabled: true
 
+Style/RaiseString:
+  Description: 'Checks for raise with a string literal instead of a class or exception object.'
+  Enabled: true
+
 Style/RedundantBegin:
   Description: "Don't use begin blocks when they are not needed."
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#begin-implicit'
